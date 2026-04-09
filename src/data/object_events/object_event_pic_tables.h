@@ -2968,6 +2968,18 @@ static const struct SpriteFrameImage sPicTable_Jigglypuff[] = {
     overworld_frame(gObjectEventPic_JigglypuffOld, 2, 2, 2),
 };
 
+static const struct SpriteFrameImage sPicTable_Munna[] = {
+    overworld_frame(gObjectEventPic_MunnaOld, 2, 2, 0),
+    overworld_frame(gObjectEventPic_MunnaOld, 2, 2, 1),
+    overworld_frame(gObjectEventPic_MunnaOld, 2, 2, 2),
+    overworld_frame(gObjectEventPic_MunnaOld, 2, 2, 0),
+    overworld_frame(gObjectEventPic_MunnaOld, 2, 2, 0),
+    overworld_frame(gObjectEventPic_MunnaOld, 2, 2, 1),
+    overworld_frame(gObjectEventPic_MunnaOld, 2, 2, 1),
+    overworld_frame(gObjectEventPic_MunnaOld, 2, 2, 2),
+    overworld_frame(gObjectEventPic_MunnaOld, 2, 2, 2),
+};
+
 static const struct SpriteFrameImage sPicTable_Pidgey[] = {
     overworld_frame(gObjectEventPic_PidgeyOld, 2, 2, 0),
     overworld_frame(gObjectEventPic_PidgeyOld, 2, 2, 1),

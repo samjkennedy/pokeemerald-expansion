@@ -352,6 +352,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Poliwrath;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Clefairy;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pidgeot;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jigglypuff;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Munna;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pidgey;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Chansey;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Omanyte;
@@ -790,6 +791,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_DEOXYS_A]                 = &gObjectEventGraphicsInfo_DeoxysA,
     [OBJ_EVENT_GFX_DEOXYS_N]                 = &gObjectEventGraphicsInfo_DeoxysN,
     [OBJ_EVENT_GFX_SS_ANNE]                  = &gObjectEventGraphicsInfo_SSAnne,
+    [OBJ_EVENT_GFX_MUNNA]                    = &gObjectEventGraphicsInfo_Munna,
 #endif // IS_FRLG
 };
 

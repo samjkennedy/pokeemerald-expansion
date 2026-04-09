@@ -157,7 +157,7 @@ VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
 VermilionCity_PokemonFanClub_Text_ChairmansStory::
 	.string "Good!\n"
 	.string "Then listen up!\p"
-	.string "My favorite RAPIDASH…\p"
+	.string "My favorite Darmanitan…\p"
 	.string "It's…cute…lovely…smart… \n"
 	.string "plus…amazing…you think so?…\l"
 	.string "oh yes…it's…stunning…\l"
@@ -179,7 +179,7 @@ VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
 	.string "BIKE SHOP in CERULEAN CITY.\p"
 	.string "Exchange that for a BICYCLE\n"
 	.string "free of charge!\p"
-	.string "Don't worry, my favorite FEAROW\n"
+	.string "Don't worry, my favorite Braviary\n"
 	.string "will FLY me anywhere I need to go.\p"
 	.string "So, I have no need for a BICYCLE.\p"
 	.string "I hope you like cycling!$"

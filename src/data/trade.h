@@ -1034,8 +1034,8 @@ static const struct InGameTrade sIngameTrades[] =
     },
     [INGAME_TRADE_MR_MIME] = 
     {
-        .nickname = _("MIMIEN"),
-        .species = SPECIES_MR_MIME,
+        .nickname = _("MARVIN"),
+        .species = SPECIES_ELGYEM,
         .ivs = {20, 15, 17, 24, 23, 22},
         .abilityNum = 0,
         .otId = 1985,
@@ -1046,7 +1046,7 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("REYLEY"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_ABRA
+        .requestedSpecies = SPECIES_SOLOSIS
     },
     [INGAME_TRADE_JYNX] = 
     {
@@ -1067,8 +1067,8 @@ static const struct InGameTrade sIngameTrades[] =
     [INGAME_TRADE_NIDORAN] = 
     {
 #if defined(FIRERED)
-        .nickname = _("MS. NIDO"),
-        .species = SPECIES_NIDORAN_F,
+        .nickname = _("BIANCA"),
+        .species = SPECIES_SHELMET,
         .ivs = {22, 18, 25, 19, 15, 22},
         .abilityNum = 0,
         .otId = 63184,
@@ -1079,10 +1079,10 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("SAIGE"),
         .otGender = FEMALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_NIDORAN_M
+        .requestedSpecies = SPECIES_KARRABLAST
 #else
-        .nickname = _("MR. NIDO"),
-        .species = SPECIES_NIDORAN_M,
+        .nickname = _("CHEREN"),
+        .species = SPECIES_KARRABLAST,
         .ivs = {19, 25, 18, 22, 22, 15},
         .abilityNum = 0,
         .otId = 63184,
@@ -1093,7 +1093,7 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("SAIGE"),
         .otGender = FEMALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_NIDORAN_F
+        .requestedSpecies = SPECIES_SHELMET
 #endif
     },
     [INGAME_TRADE_FARFETCHD] = 

@@ -52,22 +52,22 @@ PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
 	.string "Scram!$"
 
 PewterCity_PokemonCenter_1F_Text_Jigglypuff::
-	.string "JIGGLYPUFF: Puu pupuu!$"
+	.string "Munna: Muu mumuu!$"
 
 PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
 	.string "Yawn!\p"
-	.string "When JIGGLYPUFF sings, POKéMON get\n"
+	.string "When Munna sings, POKéMON get\n"
 	.string "drowsy…\p"
 	.string "…Me, too…\n"
 	.string "Snore…$"
 
 PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu::
-	.string "I really want a PIKACHU, so I'm\n"
-	.string "trading my CLEFAIRY for one.$"
+	.string "I really want an Emolga, so I'm\n"
+	.string "trading my Audino for one.$"
 
 PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid::
 	.string "I'm trading POKéMON with that kid\n"
 	.string "there.\p"
-	.string "I had two PIKACHU, so I figured\n"
+	.string "I had two Emolga, so I figured\n"
 	.string "I might as well trade one.$"
 

@@ -263,6 +263,11 @@ VermilionCity_EventScript_HarborSign::
 	msgbox VermilionCity_Text_VermilionHarbor, MSGBOX_SIGN
 	end
 
+
+VermilionCity_EventScript_ItemSunStone::
+	finditem ITEM_SUN_STONE
+	end
+
 VermilionCity_Text_GrimerMultipliesInSludge::
 	.string "We're careful about pollution here.\p"
 	.string "We've heard GRIMER multiplies in\n"

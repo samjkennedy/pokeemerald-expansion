@@ -631,6 +631,7 @@ const u16 gObjectEventPic_PoliwrathOld[] = INCBIN_U16("graphics/object_events/pi
 const u16 gObjectEventPic_ChanseyOld[] = INCBIN_U16("graphics/object_events/pics/pokemon_old/chansey.4bpp");
 const u16 gObjectEventPic_PikachuOldFrlg[] = INCBIN_U16("graphics/object_events/pics/pokemon_old/pikachu_frlg.4bpp");
 const u16 gObjectEventPic_JigglypuffOld[] = INCBIN_U16("graphics/object_events/pics/pokemon_old/jigglypuff.4bpp");
+const u16 gObjectEventPic_MunnaOld[] = INCBIN_U16("graphics/pokemon/munna/overworld.4bpp");
 const u16 gObjectEventPic_PidgeyOld[] = INCBIN_U16("graphics/object_events/pics/pokemon_old/pidgey.4bpp");
 const u16 gObjectEventPic_ClefairyOld[] = INCBIN_U16("graphics/object_events/pics/pokemon_old/clefairy.4bpp");
 
