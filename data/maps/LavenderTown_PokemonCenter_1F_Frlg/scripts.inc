@@ -33,12 +33,12 @@ LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney::
 	.string "too heinous, no crime too wicked!$"
 
 LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets::
-	.string "I saw CUBONE's mother trying to\n"
+	.string "I saw Zorua's mother trying to\n"
 	.string "escape from TEAM ROCKET.\p"
 	.string "She was killed trying to get away…$"
 
 LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls::
-	.string "You know how the CUBONE species\n"
-	.string "wears skulls, right?\p"
-	.string "People will pay a lot for one.$"
+	.string "Did you know the Zorua species\n"
+	.string "has two forms?\p"
+	.string "One is unique to the tower.$"
 

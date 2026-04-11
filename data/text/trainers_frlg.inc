@@ -83,7 +83,7 @@ Route8_Text_LeslieRematchIntro::
 	.string "POKéMON are fun, too.$"
 
 Route8_Text_AndreaRematchIntro::
-	.string "MEOWTH and PERSIAN are so cute,\n"
+	.string "Purrloin and Liepard are so cute,\n"
 	.string "meow, meow, meow!$"
 
 Route8_Text_MeganRematchIntro::

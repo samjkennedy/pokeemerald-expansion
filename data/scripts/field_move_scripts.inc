@@ -6,8 +6,6 @@ EventScript_CutTree::
 	setfieldeffectargument 0, VAR_RESULT
 	bufferpartymonnick STR_VAR_1, VAR_RESULT
 	buffermovename STR_VAR_2, MOVE_CUT
-	msgbox Text_WantToCut, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_CancelCut
 	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT
 	closemessage
 EventScript_CutTreeCommon:
@@ -44,9 +42,7 @@ EventScript_CancelCut::
 	end
 
 Text_WantToCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!\p"
-	.string "Would you like to CUT it?$"
+	.string "Use CUT?$"
 
 Text_MonUsedFieldMove:
 	.string "{STR_VAR_1} used {STR_VAR_2}!$"
