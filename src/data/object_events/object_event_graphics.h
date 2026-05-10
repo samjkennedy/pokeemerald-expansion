@@ -631,8 +631,24 @@ const u16 gObjectEventPic_PoliwrathOld[] = INCBIN_U16("graphics/object_events/pi
 const u16 gObjectEventPic_ChanseyOld[] = INCBIN_U16("graphics/object_events/pics/pokemon_old/chansey.4bpp");
 const u16 gObjectEventPic_PikachuOldFrlg[] = INCBIN_U16("graphics/object_events/pics/pokemon_old/pikachu_frlg.4bpp");
 const u16 gObjectEventPic_JigglypuffOld[] = INCBIN_U16("graphics/object_events/pics/pokemon_old/jigglypuff.4bpp");
-const u16 gObjectEventPic_MunnaOld[] = INCBIN_U16("graphics/pokemon/munna/overworld.4bpp");
 const u16 gObjectEventPic_PidgeyOld[] = INCBIN_U16("graphics/object_events/pics/pokemon_old/pidgey.4bpp");
 const u16 gObjectEventPic_ClefairyOld[] = INCBIN_U16("graphics/object_events/pics/pokemon_old/clefairy.4bpp");
+// Overworld sprites used as object event gfx
+const u16 gObjectEventPic_HerdierOld[]     = INCBIN_U16("graphics/pokemon/herdier/overworld.4bpp");
+const u16 gObjectEventPic_SimipourOld[]    = INCBIN_U16("graphics/pokemon/simipour/overworld.4bpp");
+const u16 gObjectEventPic_MunnaOld[]       = INCBIN_U16("graphics/pokemon/munna/overworld.4bpp");
+const u16 gObjectEventPic_MusharnaOld[]    = INCBIN_U16("graphics/pokemon/musharna/overworld.4bpp");
+const u16 gObjectEventPic_AudinoOld[]      = INCBIN_U16("graphics/pokemon/audino/overworld.4bpp");
+const u16 gObjectEventPic_FoongusOld[]     = INCBIN_U16("graphics/pokemon/foongus/overworld.4bpp");
+const u16 gObjectEventPic_TimburrOld[]     = INCBIN_U16("graphics/pokemon/timburr/overworld.4bpp");
+const u16 gObjectEventPic_GurdurrOld[]     = INCBIN_U16("graphics/pokemon/gurdurr/overworld.4bpp");
+const u16 gObjectEventPic_ConkeldurrOld[]  = INCBIN_U16("graphics/pokemon/conkeldurr/overworld.4bpp");
+const u16 gObjectEventPic_TirtougaOld[]    = INCBIN_U16("graphics/pokemon/tirtouga/overworld.4bpp");
+const u16 gObjectEventPic_MinccinoOld[]    = INCBIN_U16("graphics/pokemon/minccino/overworld.4bpp");
+const u16 gObjectEventPic_EmolgaOld[]      = INCBIN_U16("graphics/pokemon/emolga/overworld.4bpp");
+const u16 gObjectEventPic_CubchooOld[]     = INCBIN_U16("graphics/pokemon/cubchoo/overworld.4bpp");
+const u16 gObjectEventPic_BouffalantOld[]  = INCBIN_U16("graphics/pokemon/bouffalant/overworld.4bpp");
+const u16 gObjectEventPic_ThundurusOld[]  = INCBIN_U16("graphics/pokemon/thundurus/overworld.4bpp");
+const u16 gObjectEventPic_BasculegionOld[] = INCBIN_U16("graphics/pokemon/basculegion/overworld.4bpp");
 
 #endif // IS_FRLG

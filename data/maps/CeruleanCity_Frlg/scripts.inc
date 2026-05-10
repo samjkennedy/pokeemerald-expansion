@@ -357,6 +357,10 @@ CeruleanCity_EventScript_GymSign::
 	releaseall
 	end
 
+CeruleanCity_EventScript_ItemSunStone::
+	finditem ITEM_SUN_STONE
+	end
+
 CeruleanCity_Text_RivalIntro::
 	.string "{RIVAL}: Yo! {PLAYER}!\p"
 	.string "You're still struggling along back\n"
@@ -443,7 +447,7 @@ CeruleanCity_Text_YouCanCutDownSmallTrees::
 	.string "though.$"
 
 CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree::
-	.string "If that SLOWBRO wasn't there, you\n"
+	.string "If that Herdier wasn't there, you\n"
 	.string "could CUT down the small tree.\p"
 	.string "That way, you could get to the\n"
 	.string "other side.\p"
@@ -462,21 +466,21 @@ CeruleanCity_Text_PeopleHereWereRobbed::
 	.string "trouble with the ROCKETS!$"
 
 CeruleanCity_Text_SlowbroUseSonicboom::
-	.string "Okay! SLOWBRO!\n"
-	.string "Use SONICBOOM!$"
+	.string "Okay! Herdier!\n"
+	.string "Use Take Down!$"
 
 CeruleanCity_Text_SlowbroPayAttention::
-	.string "Come on, SLOWBRO, pay attention!$"
+	.string "Come on, Herdier, pay attention!$"
 
 CeruleanCity_Text_SlowbroPunch::
-	.string "SLOWBRO, punch!$"
+	.string "Herdier, bite!$"
 
 CeruleanCity_Text_NoYouBlewItAgain::
 	.string "No!\n"
 	.string "You blew it again!$"
 
 CeruleanCity_Text_SlowbroWithdraw::
-	.string "SLOWBRO, WITHDRAW!$"
+	.string "Herdier, Roar!$"
 
 CeruleanCity_Text_HardToControlMonsObedience::
 	.string "No! That's wrong!\n"
@@ -485,16 +489,16 @@ CeruleanCity_Text_HardToControlMonsObedience::
 	.string "on your abilities as a TRAINER.$"
 
 CeruleanCity_Text_SlowbroTookSnooze::
-	.string "SLOWBRO took a snooze…$"
+	.string "Herdier took a snooze…$"
 
 CeruleanCity_Text_SlowbroLoafingAround::
-	.string "SLOWBRO is loafing around…$"
+	.string "Herdier is loafing around…$"
 
 CeruleanCity_Text_SlowbroTurnedAway::
-	.string "SLOWBRO turned away…$"
+	.string "Herdier turned away…$"
 
 CeruleanCity_Text_SlowbroIgnoredOrders::
-	.string "SLOWBRO ignored orders…$"
+	.string "Herdier ignored orders…$"
 
 CeruleanCity_Text_WantBrightRedBicycle::
 	.string "I want a bright red bicycle.\p"

@@ -17,9 +17,9 @@ Route12_EventScript_Snorlax::
 	msgbox Text_WantToUsePokeFlute, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, Route12_EventScript_DontUsePokeFlute
 	call EventScript_AwakenSnorlax
-	setwildbattle SPECIES_SNORLAX, 30
+	setwildbattle SPECIES_MUSHARNA, 40
 	waitse
-	playmoncry SPECIES_SNORLAX, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_MUSHARNA, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
 	setflag FLAG_HIDE_ROUTE_12_SNORLAX
@@ -61,11 +61,11 @@ Route12_Text_MonSprawledOutInSlumber::
 	.string "a deep and comfortable slumber.$"
 
 Text_SnorlaxWokeUp::
-	.string "SNORLAX woke up!\p"
+	.string "Musharna woke up!\p"
 	.string "It attacked in a grumpy rage!$"
 
 Text_SnorlaxReturnedToMountains::
-	.string "SNORLAX calmed down.\n"
+	.string "Musharna calmed down.\n"
 	.string "It gave a huge yawn…\l"
 	.string "And returned to the mountains.$"
 
@@ -156,7 +156,7 @@ Route12_Text_AndrewDefeat::
 	.string "Lost it!$"
 
 Route12_Text_AndrewPostBattle::
-	.string "What, MAGIKARP?\p"
+	.string "What, Tynamo?\p"
 	.string "I catch them all the time, sure.\n"
 	.string "But, boy are they wimpy.$"
 

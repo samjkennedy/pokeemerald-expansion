@@ -233,7 +233,7 @@ VermilionCity_EventScript_Machop::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_MACHOP, CRY_MODE_NORMAL
+	playmoncry SPECIES_CONKELDURR, CRY_MODE_NORMAL
 	msgbox VermilionCity_Text_Machop
 	waitmoncry
 	msgbox VermilionCity_Text_MachopStompingLandFlat
@@ -263,11 +263,6 @@ VermilionCity_EventScript_HarborSign::
 	msgbox VermilionCity_Text_VermilionHarbor, MSGBOX_SIGN
 	end
 
-
-VermilionCity_EventScript_ItemSunStone::
-	finditem ITEM_SUN_STONE
-	end
-
 VermilionCity_Text_GrimerMultipliesInSludge::
 	.string "We're careful about pollution here.\p"
 	.string "We've heard GRIMER multiplies in\n"
@@ -289,10 +284,10 @@ VermilionCity_Text_BuildingOnThisLand::
 	.string "to lay the foundation.$"
 
 VermilionCity_Text_Machop::
-	.string "MACHOP: Guoh! Gogogoh!$"
+	.string "Conkeldurr: Durr! Keldurr!$"
 
 VermilionCity_Text_MachopStompingLandFlat::
-	.string "A MACHOP is stomping the land flat.$"
+	.string "A Conkeldurr is stomping the land flat.$"
 
 VermilionCity_Text_SSAnneVisitsOnceAYear::
 	.string "The S.S. ANNE is a famous luxury\n"

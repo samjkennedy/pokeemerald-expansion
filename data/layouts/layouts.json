@@ -10205,6 +10205,18 @@
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/map.bin",
       "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_ROUTE15_BERRY_HOUSE",
+      "name": "Route15_BerryHouse_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_BuildingFrlg",
+      "secondary_tileset": "gTileset_BikeShop_Frlg",
+      "border_filepath": "data/layouts/Route15_BerryHouse/border.bin",
+      "blockdata_filepath": "data/layouts/Route15_BerryHouse/map.bin"
     }
   ]
 }

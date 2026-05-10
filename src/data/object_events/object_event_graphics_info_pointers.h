@@ -388,6 +388,22 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DeoxysD;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DeoxysA;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DeoxysN;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSAnne;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Herdier;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Simipour;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Munna;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Musharna;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Audino;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Timburr;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gurdurr;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Conkeldurr;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Foongus;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tirtouga;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Minccino;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Emolga;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cubchoo;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bouffalant;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Thundurus;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Basculegion;
 // Begin pokemon event objects
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokeBall;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Follower;
@@ -791,7 +807,22 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_DEOXYS_A]                 = &gObjectEventGraphicsInfo_DeoxysA,
     [OBJ_EVENT_GFX_DEOXYS_N]                 = &gObjectEventGraphicsInfo_DeoxysN,
     [OBJ_EVENT_GFX_SS_ANNE]                  = &gObjectEventGraphicsInfo_SSAnne,
+    [OBJ_EVENT_GFX_HERDIER]                  = &gObjectEventGraphicsInfo_Herdier,
+    [OBJ_EVENT_GFX_SIMIPOUR]                 = &gObjectEventGraphicsInfo_Simipour,
     [OBJ_EVENT_GFX_MUNNA]                    = &gObjectEventGraphicsInfo_Munna,
+    [OBJ_EVENT_GFX_MUSHARNA]                 = &gObjectEventGraphicsInfo_Musharna,
+    [OBJ_EVENT_GFX_AUDINO]                   = &gObjectEventGraphicsInfo_Audino,
+    [OBJ_EVENT_GFX_TIMBURR]                  = &gObjectEventGraphicsInfo_Timburr,
+    [OBJ_EVENT_GFX_GURDURR]                  = &gObjectEventGraphicsInfo_Gurdurr,
+    [OBJ_EVENT_GFX_CONKELDURR]               = &gObjectEventGraphicsInfo_Conkeldurr,
+    [OBJ_EVENT_GFX_FOONGUS]                  = &gObjectEventGraphicsInfo_Foongus,
+    [OBJ_EVENT_GFX_TIRTOUGA]                 = &gObjectEventGraphicsInfo_Tirtouga,
+    [OBJ_EVENT_GFX_MINCCINO]                 = &gObjectEventGraphicsInfo_Minccino,
+    [OBJ_EVENT_GFX_EMOLGA]                   = &gObjectEventGraphicsInfo_Emolga,
+    [OBJ_EVENT_GFX_CUBCHOO]                  = &gObjectEventGraphicsInfo_Cubchoo,
+    [OBJ_EVENT_GFX_BOUFFALANT]               = &gObjectEventGraphicsInfo_Bouffalant,
+    [OBJ_EVENT_GFX_THUNDURUS]                = &gObjectEventGraphicsInfo_Thundurus,
+    [OBJ_EVENT_GFX_BASCULEGION]              = &gObjectEventGraphicsInfo_Basculegion,
 #endif // IS_FRLG
 };
 

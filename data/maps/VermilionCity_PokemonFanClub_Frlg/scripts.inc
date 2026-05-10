@@ -94,7 +94,7 @@ VermilionCity_PokemonFanClub_EventScript_Pikachu::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_PIKACHU, CRY_MODE_NORMAL
+	playmoncry SPECIES_EMOLGA, CRY_MODE_NORMAL
 	msgbox VermilionCity_PokemonFanClub_Text_Pikachu
 	waitmoncry
 	release
@@ -104,7 +104,7 @@ VermilionCity_PokemonFanClub_EventScript_Seel::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_SEEL, CRY_MODE_NORMAL
+	playmoncry SPECIES_CUBCHOO, CRY_MODE_NORMAL
 	msgbox VermilionCity_PokemonFanClub_Text_Seel
 	waitmoncry
 	release
@@ -119,30 +119,30 @@ VermilionCity_PokemonFanClub_EventScript_RulesSign2::
 	end
 
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail::
-	.string "Won't you admire my PIKACHU's\n"
+	.string "Won't you admire my Emolga's\n"
 	.string "adorable tail?$"
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
 	.string "Humph!\p"
-	.string "My PIKACHU is twice as cute as\n"
+	.string "My Emolga is twice as cute as\n"
 	.string "that one!$"
 
 VermilionCity_PokemonFanClub_Text_AdoreMySeel::
-	.string "I just adore my SEEL!\n"
+	.string "I just adore my Cubchoo!\n"
 	.string "It's so lovable!\p"
-	.string "It squeals, “Kyuuuh,” when I\n"
+	.string "It squeals, “Chooo,” when I\n"
 	.string "hug it!$"
 
 VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive::
 	.string "Oh, dear!\p"
-	.string "My SEEL is far more attractive.\n"
+	.string "My Cubchoo is far more attractive.\n"
 	.string "By double, I would say.$"
 
 VermilionCity_PokemonFanClub_Text_Pikachu::
-	.string "PIKACHU: Chu! Pikachu!$"
+	.string "Emolga: Mol! Gaa!$"
 
 VermilionCity_PokemonFanClub_Text_Seel::
-	.string "SEEL: Kyuoo!$"
+	.string "Cubchoo: Chooo!$"
 
 VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
 	.string "I chair the POKéMON Fan Club!\p"
