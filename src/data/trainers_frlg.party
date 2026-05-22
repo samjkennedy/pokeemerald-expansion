@@ -1338,16 +1338,16 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Charmeleon
-Level: 40
+Durant
+Level: 54
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Lapras
-Level: 40
+Alomomola
+Level: 52
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Lickitung
-Level: 40
+Vanilluxe
+Level: 52
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_POKEMANIAC_ASHTON ===
@@ -2345,20 +2345,16 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
-Level: 28
+Basculin Red Striped
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
-Level: 28
+Basculin Blue Striped
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seaking
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Seaking
-Level: 28
+Basculin White Striped
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FISHERMAN_CLAUDE ===
@@ -3390,20 +3386,20 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Drowzee
-Level: 41
+Musharna
+Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Hypno
-Level: 41
+Duosion
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Kadabra
-Level: 41
+Duosion
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Kadabra
-Level: 41
+Beheeyem
+Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JUGGLER_KIRK ===
@@ -3456,13 +3452,13 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Mr Mime
-Level: 48
+Gothitelle
+Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psychic
-- Role Play
-- Double Slap
-- Encore
+- Thief
+- Hypnosis
+- Thunderbolt
 
 === TRAINER_JUGGLER_EDWARD ===
 Name: EDWARD
@@ -3596,9 +3592,14 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Rhyhorn
-Level: 43
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Haxorus
+Level: 56
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+EVs: 63 Atk / 63 Spe / 6 Def
+- Bulldoze
+- Dragon Claw
+- Crunch
+- Swords Dance
 
 === TRAINER_TAMER_COLE ===
 Name: COLE
@@ -3609,13 +3610,19 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Arbok
-Level: 39
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Krookodile
+Level: 52
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+EVs: 63 Atk / 63 SpD / 6 Spe
 
-Tauros
-Level: 39
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Bouffalant
+Level: 52
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+EVs: 63 Atk / 63 Spe / 6 Def
+- High Horsepower
+- Wild Charge
+- Revenge
+- Head Charge
 
 === TRAINER_TAMER_VINCENT ===
 Name: VINCENT
@@ -3626,12 +3633,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Persian
-Level: 44
+Bouffalant
+Level: 56
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Golduck
-Level: 44
+Braviary
+Level: 56
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_TAMER_JOHN ===
@@ -4074,13 +4081,23 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machop @ Black Belt
-Level: 40
+Mienshao @ Black Belt
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 63 Atk / 63 Spe / 6 Def
+- Dig
+- Drain Punch
+- U-Turn
+- Fake Out
 
-Machoke @ Black Belt
-Level: 40
+Scrafty @ Black Belt
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 63 Atk / 63 Spe / 6 Def
+- Brick Break
+- Swagger
+- Crunch
+- Dig
 
 === TRAINER_BLACK_BELT_KIYO ===
 Name: KIYO
@@ -4091,9 +4108,14 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machoke @ Black Belt
-Level: 43
+Conkeldurr @ Black Belt
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 63 Atk / 63 Spe / 6 Def
+- Bulldoze
+- Rock Slide
+- Brick Break
+- Thief
 
 === TRAINER_BLACK_BELT_TAKASHI ===
 Name: TAKASHI
@@ -4104,16 +4126,16 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machoke @ Black Belt
-Level: 38
+Sawk @ Black Belt
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Machop @ Black Belt
-Level: 38
+Throh @ Black Belt
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Machoke @ Black Belt
-Level: 38
+Conkeldurr @ Black Belt
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BLACK_BELT_DAISUKE ===
@@ -4125,16 +4147,12 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machoke @ Black Belt
-Level: 43
+Mienshao @ Black Belt
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Machop @ Black Belt
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Machoke @ Black Belt
-Level: 43
+Conkeldurr @ Black Belt
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_RIVAL_OAKS_LAB_SQUIRTLE ===
@@ -4776,16 +4794,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Stunfisk Galar
-Level: 64
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 63 Def / 63 SpD / 6 SpA
 - Stealth Rock
 - Earth Power
 - Ice Fang
 - Thunder Wave
 
 Krookodile
-Level: 64
+Level: 58
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 63 Atk / 63 SpD / 6 Def
 - Hone Claws
 - Power Trip
 - Earthquake
@@ -4793,16 +4813,18 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Golurk
 Ability: No Guard
-Level: 63
+Level: 58
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 63 Atk / 63 SpD / 6 Def
 - Dynamic Punch
 - High Horsepower
 - Fly
 - Focus Blast
 
 Runerigus
-Level: 64
+Level: 57
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 63 Atk / 63 SpD / 6 Def
 - Phantom Force
 - Earthquake
 - Parting Shot
@@ -4810,16 +4832,18 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Seismitoad
 Ability: Water Absorb
-Level: 64
+Level: 58
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 63 Atk / 63 SpA / 6 SpD
 - Ice Punch
 - Hydro Pump
 - Stomping Tantrum
 - Muddy Water
 
 Excadrill
-Level: 65
+Level: 59
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 63 Atk / 63 Spe / 6 Def
 - Swords Dance
 - Earthquake
 - Crush Claw
@@ -5555,45 +5579,32 @@ Items: Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Sandslash
-Level: 37
+Krookodile
+Level: 52
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Slash
-- Swift
-- Sand Attack
-- Poison Sting
+EVs: 63 Atk / 63 Spe / 6 Def
+- Hone Claws
+- Foul Play
+- Bulldoze
+- Swagger
 
-Sandslash
-Level: 37
+Excadrill
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Slash
-- Swift
-- Sand Attack
-- Poison Sting
+EVs: 63 Atk / 63 Spe / 6 Def
+- Drill Run
+- Metal Claw
+- Crush Claw
+- Iron Defense
 
-Rhyhorn
-Level: 38
+Seismitoad
+Level: 54
+Ability: Poison Touch
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Take Down
-- Rock Blast
-- Fury Attack
-- Scary Face
-
-Nidorino
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Fury Attack
-- Horn Attack
-- Poison Sting
-- Double Kick
-
-Nidoking
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thrash
-- Double Kick
-- Poison Sting
-- Focus Energy
+EVs: 63 Atk / 63 SpD / 6 Def
+- Muddy Water
+- Mud Shot
+- Ice Punch
 
 === TRAINER_COOLTRAINER_GEORGE ===
 Name: GEORGE
@@ -5605,45 +5616,25 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Exeggutor
-Level: 42
+Ferrothorn
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Egg Bomb
-- Confusion
-- Stun Spore
-- Sleep Powder
-
-Sandslash
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Fury Swipes
-- Swift
-- Poison Sting
-- Sand Attack
-
-Cloyster
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Spike Cannon
 - Spikes
-- Aurora Beam
-- Supersonic
+- Ingrain
+- Iron Head
+- Bullet Seed
 
-Electrode
-Level: 42
+Excadrill
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Spark
-- Sonic Boom
-- Screech
-- Light Screen
 
-Arcanine
-Level: 42
+Druddigon
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flame Wheel
-- Roar
-- Bite
-- Take Down
+
+Gigalith
+Level: 54
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_COOLTRAINER_COLBY ===
 Name: COLBY
@@ -5655,45 +5646,21 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Kingler
-Level: 41
+Beartic
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Guillotine
-- Stomp
-- Mud Shot
-- Bubble
 
-Poliwhirl
-Level: 42
+Seismitoad
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Body Slam
-- Double Slap
-- Water Gun
-- Hypnosis
 
-Tentacruel
-Level: 42
+Basculegion
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Barrier
-- Wrap
-- Bubble Beam
-- Acid
 
-Seadra
-Level: 42
+Samurott Hisui
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Water Gun
-- Smokescreen
-- Twister
-- Leer
-
-Blastoise
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Water Gun
-- Bite
-- Rapid Spin
-- Rain Dance
 
 === TRAINER_COOLTRAINER_PAUL ===
 Name: PAUL
@@ -5755,45 +5722,25 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Raticate
-Level: 42
+Watchog
+Level: 52
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Super Fang
-- Pursuit
-- Scary Face
-- Quick Attack
 
-Ivysaur
-Level: 42
+Servine
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Razor Leaf
-- Sleep Powder
-- Sweet Scent
-- Synthesis
 
-Wartortle
-Level: 42
+Dewott
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Water Gun
-- Bite
-- Rapid Spin
-- Tail Whip
 
-Charmeleon
-Level: 42
+Pignite
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flamethrower
-- Slash
-- Smokescreen
-- Scary Face
 
-Charizard
-Level: 42
+Emboar
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flamethrower
-- Wing Attack
-- Smokescreen
-- Scary Face
 
 === TRAINER_COOLTRAINER_GILBERT ===
 Name: GILBERT
@@ -5955,45 +5902,32 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Sandslash
-Level: 38
+Stunfisk
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Slash
-- Swift
-- Sand Attack
-- Poison Sting
+EVs: 63 Def / 63 SpD / 6 SpA
+- Thunder Wave
+- Electroweb
+- Bulldoze
+- Stealth Rock
 
-Graveler
-Level: 38
+Gigalith
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Rock Blast
-- Magnitude
-- Mud Sport
-- Defense Curl
+EVs: 63 Def / 63 SpD / 6 Atk
+- Bulldoze
+- Rock Slide
+- Body Press
+- Iron Defense
 
-Onix
-Level: 38
+Fraxure
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Dragon Breath
-- Sandstorm
-- Rock Throw
-- Bind
-
-Graveler
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Rock Blast
-- Magnitude
-- Rollout
-- Defense Curl
-
-Marowak
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bonemerang
-- Headbutt
-- Leer
-- Growl
+EVs: 63 Atk / 63 SpD / 6 Spe
+- Dragon Claw
+- Bulldoze
+- Crunch
+- Trailblaze
 
 === TRAINER_COOLTRAINER_WARREN ===
 Name: WARREN
@@ -6005,45 +5939,32 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Marowak
-Level: 37
+Stoutland
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bonemerang
-- Headbutt
-- Leer
-- Growl
-
-Marowak
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bonemerang
-- Headbutt
-- Leer
-- Growl
-
-Rhyhorn
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 63 Atk / 63 SpD / 6 Spe
+- Stomping Tantrum
 - Take Down
-- Rock Blast
-- Fury Attack
-- Scary Face
+- Crunch
+- Play Rough
 
-Nidorina
-Level: 39
+Krookodile
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Fury Swipes
-- Bite
-- Poison Sting
-- Double Kick
+EVs: 63 Atk / 63 SpD / 6 Spe
+- Earthquake
+- Foul Play
+- Hone Claws
+- Torment
 
-Nidoqueen
-Level: 39
+Zebstrika
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Body Slam
-- Bite
-- Poison Sting
-- Double Kick
+EVs: 63 Atk / 63 SpD / 6 Spe
+- High Horsepower
+- Wild Charge
+- Flame Charge
+- Trailblaze
 
 === TRAINER_COOLTRAINER_MARY ===
 Name: MARY
@@ -6081,45 +6002,29 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bellsprout
-Level: 42
+Whimsicott
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Razor Leaf
-- Acid
-- Stun Spore
-- Poison Powder
+- Tailwind
+- Leech Seed
+- Giga Drain
+- Moonblast
 
-Weepinbell
-Level: 42
+Lilligant Hisui
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Razor Leaf
-- Acid
-- Sleep Powder
-- Poison Powder
+- Victory Dance
+- Axe Kick
+- Petal Blizzard
+- Leech Seed
 
-Victreebel
-Level: 42
+Ferrothorn
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Razor Leaf
-- Acid
-- Stun Spore
-- Sleep Powder
-
-Paras
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Growth
-- Slash
-- Leech Life
-- Stun Spore
-
-Parasect
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Spore
-- Slash
-- Leech Life
-- Poison Powder
+- Spikes
+- Leech Seed
+- Bullet Seed
+- Gyro Ball
 
 === TRAINER_COOLTRAINER_ALEXA ===
 Name: ALEXA
@@ -6131,45 +6036,21 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Clefairy
-Level: 42
+Cinccino
+Level: 52
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Light Screen
-- Cosmic Power
-- Double Slap
-- Encore
 
-Jigglypuff
-Level: 42
+Musharna
+Level: 52
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Sing
-- Body Slam
-- Rollout
-- Disable
 
-Persian
-Level: 42
+Jellicent (F)
+Level: 52
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Pay Day
-- Faint Attack
-- Bite
-- Screech
 
-Dewgong
-Level: 42
+Lilligant
+Level: 52
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Sheer Cold
-- Take Down
-- Rest
-- Aurora Beam
-
-Chansey
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Sing
-- Egg Bomb
-- Soft Boiled
-- Minimize
 
 === TRAINER_COOLTRAINER_SHANNON ===
 Name: SHANNON
@@ -6231,45 +6112,21 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Persian
-Level: 42
+Liepard
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Fury Swipes
-- Screech
-- Faint Attack
-- Pay Day
 
-Ponyta
-Level: 42
+Darmanitan
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Agility
-- Take Down
-- Fire Spin
-- Stomp
 
-Rapidash
-Level: 42
+Heatmor
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Fury Attack
-- Fire Spin
-- Stomp
-- Growl
 
-Vulpix
-Level: 42
+Jellicent
+Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flamethrower
-- Confuse Ray
-- Quick Attack
-- Imprison
-
-Ninetales
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Safeguard
-- Will O Wisp
-- Confuse Ray
-- Fire Spin
 
 === TRAINER_COOLTRAINER_BROOKE ===
 Name: BROOKE
@@ -6433,24 +6290,27 @@ Mugshot: Purple
 
 Vanilluxe @ Icy Rock
 Ability: Snow Warning
-Level: 66
+Level: 60
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 SpA / 128 SpD / 6 Spe
 - Blizzard
 - Freeze Dry
 - Chilling Water
 - Light Screen
 
 Beartic @ Chesto Berry
-Level: 66
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 SpD / 6 Spe
 - Bulldoze
 - Ice Fang
 - Rest
 - Shadow Claw
 
 Cryogonal
-Level: 66
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 SpA / 128 SpD / 6 Spe
 - Ice Beam
 - Light Screen
 - Reflect
@@ -6458,12 +6318,22 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Darmanitan Galar
 Ability: Zen Mode
-Level: 66
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 SpD / 6 Spe
 - Ice Punch
 - Fire Punch
 - Belly Drum
 - Superpower
+
+Carracosta
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 SpD / 6 Spe
+- Blizzard
+- Aqua Jet
+- Crunch
+- Liquidation
 
 === TRAINER_ELITE_FOUR_BRUNO ===
 Name: BRUNO
@@ -6477,8 +6347,9 @@ Mugshot: Green
 
 Conkeldurr @ Flame Orb
 Ability: Guts
-Level: 65
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 Def / 6 Spe
 - Hammer Arm
 - Stone Edge
 - Bulldoze
@@ -6486,8 +6357,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Sawk
 Ability: Sturdy
-Level: 66
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 Spe / 6 Def
 - Mach Punch
 - Knock Off
 - Thunder Punch
@@ -6495,8 +6367,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Throh
 Ability: Inner Focus
-Level: 66
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 Def / 6 Spe
 - Fire Punch
 - Circle Throw
 - Poison Jab
@@ -6504,16 +6377,18 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Scrafty
 Ability: Moxie
-Level: 66
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 Spe / 6 Def
 - Brick Break
 - Payback
 - Swagger
 - Rock Tomb
 
 Mienshao
-Level: 67
+Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 Spe / 6 Def
 - Drain Punch
 - Rock Tomb
 - Knock Off
@@ -6530,24 +6405,27 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Pink
 
 Zoroark Hisui
-Level: 66
+Level: 61
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 Spe / 6 Def
 - Shadow Ball
 - Bitter Malice
 - U-Turn
 - Night Daze
 
 Golurk
-Level: 65
+Level: 60
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 Spe / 6 SpD
 - Shadow Punch
 - Earthquake
 - Heavy Slam
 - Hammer Arm
 
 Cofagrigus
-Level: 66
+Level: 60
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 Def / 6 SpD
 - Will-O-Wisp
 - Shadow Ball
 - Parting Shot
@@ -6555,8 +6433,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Jellicent 
 Ability: Cursed Body
-Level: 66
+Level: 61
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 SpA / 128 SpD / 6 HP
 - Destiny Bond
 - Hex
 - Hydro Pump
@@ -6564,8 +6443,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Chandelure
 Ability: Flame Body
-Level: 68
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 SpA / 128 SpD / 6 Spe
 - Shadow Ball
 - Will-O-Wisp
 - Hex
@@ -6582,40 +6462,45 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Blue
 
 Haxorus
-Level: 67
+Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 Spe / 6 Def
 - Breaking Swipe
 - Dragon Dance
 - Focus Blast
 - Crunch
 
 Druddigon @ Lum Berry
-Level: 68
+Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 Spe / 6 Def
 - Iron Head
 - Dragon Claw
 - Outrage
 - Thunder Fang
 
 Archeops @ Flying Gem
-Level: 68
+Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 Atk / 128 Spe / 6 Def
 - Dragon Claw
 - Ancient Power
 - Acrobatics
 - Tailwind
 
 Eelektross
-Level: 68
+Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 SpA / 128 Atk / 6 Spe
 - Dragon Claw
 - Dragon Pulse
 - Thunderbolt
 - Flash Cannon
 
 Hydreigon @ Throat Spray
-Level: 70
+Level: 66
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 128 SpA / 128 Spe / 6 Def
 - Dragon Pulse
 - Dark Pulse
 - Nasty Plot
@@ -7116,7 +7001,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Tranquill
+Tranquill (M)
 Level: 27
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 EVs: 63 Atk / 63 Spe / 3 SpD
@@ -7145,7 +7030,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Tranquill
+Tranquill (M)
 Level: 27
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 EVs: 63 Atk / 63 Spe / 3 SpD
@@ -7174,7 +7059,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Tranquill
+Tranquill (M)
 Level: 27
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 EVs: 63 Atk / 63 Spe / 3 SpD
@@ -7203,7 +7088,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Tranquill
+Tranquill (M)
 Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 EVs: 63 Atk / 63 Spe / 3 SpD
@@ -7240,7 +7125,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Tranquill
+Tranquill (M)
 Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 EVs: 63 Atk / 63 Spe / 3 SpD
@@ -7278,7 +7163,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Tranquill
+Tranquill (M)
 Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 EVs: 63 Atk / 63 Spe / 3 SpD
@@ -7316,7 +7201,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Unfezant
+Unfezant (M)
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -7357,7 +7242,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Unfezant
+Unfezant (M)
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -7394,7 +7279,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Unfezant
+Unfezant (M)
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -7435,53 +7320,60 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Feather Dance
-- Wing Attack
-- Gust
-- Quick Attack
+Unfezant (M)
+Level: 56
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 Atk / 128 Spe / 6 SpD
+- Swagger
+- Brave Bird
+- Taunt
+- U-Turn
 
-Rhyhorn
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Take Down
-- Horn Drill
-- Rock Blast
-- Fury Attack
+Ferrothorn
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 SpD / 128 HP / 6 Def
+- Seed Bomb
+- Iron Head
+- Leech Seed
+- Spikes
 
-Growlithe
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Larvesta
+Level: 57
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 SpA / 128 Spe / 6 SpD
+- Bug Bite
 - Flame Wheel
-- Take Down
-- Leer
-- Agility
+- Giga Drain
+- Acrobatics
 
-Exeggcute
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Solar Beam
-- Sleep Powder
-- Poison Powder
-- Stun Spore
-
-Alakazam
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Reuniclus
+Level: 56
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 SpA / 128 Def / 6 Spe
+- Pain Split
 - Psychic
-- Calm Mind
 - Future Sight
-- Disable
+- Shadow Ball
 
-Blastoise
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Gun
-- Rain Dance
-- Bite
-- Rapid Spin
+Bisharp
+Ability: Defiant
+Level: 54
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 Atk / 128 Spe / 6 SpD
+- Night Slash
+- Shadow Claw
+- X-Scissor
+- Thief
+
+Samurott
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 Atk / 128 HP / 6 SpD
+- Aqua Tail
+- X-Scissor
+- Razor Shell
+- Swords Dance
 
 === TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR ===
 Name: TERRY
@@ -7492,53 +7384,60 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Feather Dance
-- Wing Attack
-- Gust
-- Quick Attack
+Unfezant (M)
+Level: 56
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 Atk / 128 Spe / 6 SpD
+- Swagger
+- Brave Bird
+- Taunt
+- U-Turn
 
-Rhyhorn
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Take Down
-- Horn Drill
-- Rock Blast
-- Fury Attack
-
-Gyarados
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hydro Pump
-- Twister
-- Leer
-- Rain Dance
-
-Growlithe
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Larvesta
+Level: 57
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 SpA / 128 Spe / 6 SpD
+- Bug Bite
 - Flame Wheel
-- Take Down
-- Leer
-- Agility
+- Giga Drain
+- Acrobatics
 
-Alakazam
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Basculegion
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 SpA / 128 Spe / 6 SpD
+- Aqua Jet
+- Crunch
+- Last Respects
+- Headbutt
+
+Bisharp
+Ability: Defiant
+Level: 54
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 Atk / 128 Spe / 6 SpD
+- Night Slash
+- Shadow Claw
+- X-Scissor
+- Thief
+
+Reuniclus
+Level: 56
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 SpA / 128 Def / 6 Spe
+- Pain Split
 - Psychic
-- Calm Mind
 - Future Sight
-- Disable
+- Shadow Ball
 
-Venusaur
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Razor Leaf
-- Sweet Scent
-- Growth
-- Synthesis
+Serperior
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 SpD / 128 HP / 6 Atk
+- Coil
+- Giga Drain
+- Dragon Pulse
+- Leech Seed
 
 === TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER ===
 Name: TERRY
@@ -7549,53 +7448,60 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Feather Dance
-- Wing Attack
-- Gust
-- Quick Attack
+Unfezant (M)
+Level: 56
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 Atk / 128 Spe / 6 SpD
+- Swagger
+- Brave Bird
+- Taunt
+- U-Turn
 
-Rhyhorn
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Take Down
-- Horn Drill
-- Rock Blast
-- Fury Attack
+Ferrothorn
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 SpD / 128 HP / 6 Def
+- Seed Bomb
+- Iron Head
+- Leech Seed
+- Spikes
 
-Exeggcute
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Solar Beam
-- Sleep Powder
-- Poison Powder
-- Stun Spore
+Basculegion
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 SpA / 128 Spe / 6 SpD
+- Aqua Jet
+- Crunch
+- Last Respects
+- Headbutt
 
-Gyarados
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hydro Pump
-- Twister
-- Leer
-- Rain Dance
-
-Alakazam
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Reuniclus
+Level: 56
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 SpA / 128 Def / 6 Spe
+- Pain Split
 - Psychic
-- Calm Mind
 - Future Sight
-- Disable
+- Shadow Ball
 
-Charizard
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Flamethrower
-- Wing Attack
-- Slash
-- Scary Face
+Bisharp
+Ability: Defiant
+Level: 54
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 Atk / 128 Spe / 6 SpD
+- Night Slash
+- Shadow Claw
+- X-Scissor
+- Thief
+
+Emboar
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 Atk / 128 Spe / 6 SpD
+- Flare Blitz
+- Power Up Punch
+- Assurance
+- Thunder Punch
 
 === TRAINER_CHAMPION_FIRST_SQUIRTLE ===
 Name: TERRY
@@ -7607,17 +7513,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Braviary @ Flying Gem
-Ability: Defiant
-Level: 68
+Unfezant (M) @ Flying Gem
+Level: 62
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 128 Atk / 128 Spe / 6 SpD
+- Swagger
 - Brave Bird
-- Acrobatics
+- Taunt
 - U-Turn
-- Tailwind
 
 Ferrothorn
-Level: 68
+Level: 62
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Seed Bomb
 - Iron Head
@@ -7625,7 +7531,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Spikes
 
 Volcarona
-Level: 68
+Level: 62
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bug Buzz
 - Heat Wave
@@ -7633,7 +7539,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Trailblaze
 
 Reuniclus
-Level: 70
+Level: 64
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Pain Split
 - Psychic
@@ -7642,7 +7548,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Kingambit
 Ability: Supreme Overlord
-Level: 70
+Level: 64
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Kowtow Cleave
 - Iron Head
@@ -7650,7 +7556,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Zen Headbutt
 
 Samurott
-Level: 72
+Level: 66
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aqua Tail
 - Encore
@@ -7669,7 +7575,7 @@ Mugshot: Yellow
 
 Braviary @ Flying Gem
 Ability: Defiant
-Level: 68
+Level: 62
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Brave Bird
 - Acrobatics
@@ -7677,7 +7583,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tailwind
 
 Basculegion (M)
-Level: 68
+Level: 62
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Phantom Force
 - Aqua Jet
@@ -7685,7 +7591,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 
 Volcarona
-Level: 68
+Level: 62
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bug Buzz
 - Heat Wave
@@ -7693,7 +7599,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Trailblaze
 
 Reuniclus
-Level: 70
+Level: 64
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Pain Split
 - Psychic
@@ -7702,7 +7608,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Kingambit
 Ability: Supreme Overlord
-Level: 70
+Level: 64
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Kowtow Cleave
 - Iron Head
@@ -7710,7 +7616,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Zen Headbutt
 
 Serperior
-Level: 72
+Level: 66
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leech Seed
 - Giga Drain
@@ -7729,7 +7635,7 @@ Mugshot: Yellow
 
 Braviary @ Flying Gem
 Ability: Defiant
-Level: 68
+Level: 62
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Brave Bird
 - Acrobatics
@@ -7737,7 +7643,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tailwind
 
 Basculegion (M)
-Level: 68
+Level: 62
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Phantom Force
 - Aqua Jet
@@ -7745,7 +7651,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 
 Ferrothorn
-Level: 68
+Level: 62
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Seed Bomb
 - Iron Head
@@ -7753,7 +7659,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Spikes
 
 Reuniclus
-Level: 70
+Level: 64
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Pain Split
 - Psychic
@@ -7762,7 +7668,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Kingambit
 Ability: Supreme Overlord
-Level: 70
+Level: 64
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Kowtow Cleave
 - Iron Head
@@ -7770,7 +7676,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Zen Headbutt
 
 Emboar
-Level: 72
+Level: 66
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Close Combat
 - Fire Punch
@@ -8389,21 +8295,21 @@ Music: Cool
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Nidoqueen
-Level: 45
+Whimsicott
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Superpower
-- Body Slam
-- Double Kick
-- Poison Sting
+- Helping Hand
+- Tailwind
+- Moonblast
+- Protect
 
-Nidoking
-Level: 45
+Haxorus
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Megahorn
-- Thrash
-- Double Kick
-- Poison Sting
+- Crunch
+- Protect
+- Breaking Swipe
+- Dragon Dance
 
 === TRAINER_YOUNG_COUPLE_GIA_JES ===
 Name: GIA & JES
