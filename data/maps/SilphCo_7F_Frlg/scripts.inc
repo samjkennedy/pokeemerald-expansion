@@ -117,8 +117,8 @@ SilphCo_7F_EventScript_LaprasGuy::
 	faceplayer
 	goto_if_set FLAG_GOT_LAPRAS_FROM_SILPH, SilphCo_7F_EventScript_AlreadyGotLapras
 	msgbox SilphCo_7F_Text_HaveMonForSavingUs
-	setvar VAR_TEMP_1, SPECIES_LAPRAS
-	givemon SPECIES_LAPRAS, 25
+	setvar VAR_TEMP_1, SPECIES_ALOMOMOLA
+	givemon SPECIES_ALOMOMOLA, 40
 	goto_if_eq VAR_RESULT, 0, SilphCo_7F_EventScript_ReceiveLaprasParty
 	goto_if_eq VAR_RESULT, 1, SilphCo_7F_EventScript_ReceiveLaprasPC
 	goto_if_eq VAR_RESULT, 2, Common_EventScript_NoMoreRoomForPokemon
@@ -131,7 +131,7 @@ SilphCo_7F_EventScript_ReceiveLaprasParty::
 	message SilphCo_7F_Text_ObtainedLaprasFromEmployee
 	waitmessage
 	waitfanfare
-	bufferspeciesname STR_VAR_1, SPECIES_LAPRAS
+	bufferspeciesname STR_VAR_1, SPECIES_ALOMOMOLA
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SilphCo_7F_EventScript_EndReceiveLapras
 	call Common_EventScript_GetGiftMonPartySlot
@@ -145,7 +145,7 @@ SilphCo_7F_EventScript_ReceiveLaprasPC::
 	message SilphCo_7F_Text_ObtainedLaprasFromEmployee
 	waitmessage
 	waitfanfare
-	bufferspeciesname STR_VAR_1, SPECIES_LAPRAS
+	bufferspeciesname STR_VAR_1, SPECIES_ALOMOMOLA
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SilphCo_7F_EventScript_LaprasTransferredToPC
 	call Common_EventScript_NameReceivedBoxMon
@@ -223,7 +223,7 @@ SilphCo_7F_EventScript_Grunt1::
 	end
 
 SilphCo_7F_EventScript_Grunt2::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_34, SilphCo_7F_Text_Grunt2Intro, SilphCo_7F_Text_Grunt2Defeat
+	trainerbattle_single TRAINER_ROCKET_ADMIN_ARTEMIS, SilphCo_7F_Text_Grunt2Intro, SilphCo_7F_Text_Grunt2Defeat
 	msgbox SilphCo_7F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -240,16 +240,16 @@ SilphCo_7F_Text_HaveMonForSavingUs::
 	.string "for saving us.$"
 
 SilphCo_7F_Text_ObtainedLaprasFromEmployee::
-	.string "{PLAYER} obtained a LAPRAS from\n"
+	.string "{PLAYER} obtained an Alomomola from\n"
 	.string "the SILPH employee!$"
 
 SilphCo_7F_Text_ExplainLapras::
-	.string "It's a LAPRAS.\n"
+	.string "It's an Alomomola.\n"
 	.string "It's a very intelligent POKéMON.\p"
 	.string "We kept it in our lab, but it will\n"
 	.string "be much better off with you.\p"
 	.string "I think you will be a good TRAINER\n"
-	.string "for LAPRAS!\p"
+	.string "for Alomomola!\p"
 	.string "It's a good swimmer.\n"
 	.string "It'll give you a lift across water!$"
 

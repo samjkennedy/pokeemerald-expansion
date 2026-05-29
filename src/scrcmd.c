@@ -2323,13 +2323,17 @@ bool8 ScrCmd_checkfieldmove(struct ScriptContext *ctx)
         u16 species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES);
         if (!species)
             break;
-        if (!GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG) && MonKnowsMove(&gPlayerParty[i], move) == TRUE)
+        
+        //Only check if any of the pokemon can LEARN the field move, no need to actually teach them it
+        if (!GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG) && MonLearnsMove(&gPlayerParty[i], move) == TRUE)
         {
             gSpecialVar_Result = i;
             gSpecialVar_0x8004 = species;
-            break;
+            return FALSE;
         }
     }
+
+    //TODO maybe have a fallback and use the first viable slot so as to never lock the player out of an HM
 
     return FALSE;
 }

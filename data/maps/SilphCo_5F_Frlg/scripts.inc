@@ -43,7 +43,7 @@ SilphCo_5F_EventScript_Beau::
 	end
 
 SilphCo_5F_EventScript_Grunt1::
-	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_28, SilphCo_5F_Text_Grunt1Intro, SilphCo_5F_Text_Grunt1Defeat
+	trainerbattle_single TRAINER_ROCKET_ADMIN_APOLLO, SilphCo_5F_Text_Grunt1Intro, SilphCo_5F_Text_Grunt1Defeat
 	msgbox SilphCo_5F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -67,15 +67,16 @@ SilphCo_5F_Text_YoureOurHeroThankYou::
 	.string "You're our hero! Thank you!$"
 
 SilphCo_5F_Text_Grunt1Intro::
-	.string "I heard a kid was wandering\n"
-	.string "around.$"
+	.string "So you're the one causing trouble?\n"
+	.string "Run along, this isn't a playground.$"
 
 SilphCo_5F_Text_Grunt1Defeat::
-	.string "Boom!$"
+	.string "...Hmph.\n"
+	.string "You hit harder than you look.$"
 
 SilphCo_5F_Text_Grunt1PostBattle::
-	.string "It's not smart to pick a fight with\n"
-	.string "TEAM ROCKET!$"
+	.string "My sister will be waiting\n"
+	.string "for you.$"
 
 SilphCo_5F_Text_BeauIntro::
 	.string "We study POKé BALL technology on\n"

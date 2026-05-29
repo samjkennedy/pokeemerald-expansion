@@ -412,6 +412,22 @@
 #define OBJ_EVENT_GFX_PUSHABLE_BOULDER_FRLG      385
 #define OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG         386
 #define OBJ_EVENT_GFX_BREAKABLE_ROCK_FRLG        387
+#define OBJ_EVENT_GFX_HERDIER                    507
+#define OBJ_EVENT_GFX_SIMIPOUR                   516
+#define OBJ_EVENT_GFX_MUNNA                      517
+#define OBJ_EVENT_GFX_MUSHARNA                   518
+#define OBJ_EVENT_GFX_AUDINO                     531
+#define OBJ_EVENT_GFX_TIMBURR                    532
+#define OBJ_EVENT_GFX_GURDURR                    533
+#define OBJ_EVENT_GFX_CONKELDURR                 534
+#define OBJ_EVENT_GFX_TIRTOUGA                   564
+#define OBJ_EVENT_GFX_MINCCINO                   572
+#define OBJ_EVENT_GFX_EMOLGA                     587
+#define OBJ_EVENT_GFX_FOONGUS                    590
+#define OBJ_EVENT_GFX_CUBCHOO                    613
+#define OBJ_EVENT_GFX_BOUFFALANT                 626
+#define OBJ_EVENT_GFX_THUNDURUS                  642
+#define OBJ_EVENT_GFX_BASCULEGION                902
 
 // FRLG equivalents
 
@@ -423,7 +439,7 @@
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
 // is 65519, but even considering follower Pokémon, this should be more than enough :)
-#define NUM_OBJ_EVENT_GFX                        388
+#define NUM_OBJ_EVENT_GFX                        1093
 
 
 // These are dynamic object gfx ids.

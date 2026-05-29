@@ -40,6 +40,11 @@ PewterCity_Gym_EventScript_Liam::
 	msgbox PewterCity_Gym_Text_LiamPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+PewterCity_Gym_EventScript_Darren::
+	trainerbattle_single TRAINER_HIKER_DARREN, PewterCity_Gym_Text_DarrenIntro, PewterCity_Gym_Text_DarrenDefeat
+	msgbox PewterCity_Gym_Text_DarrenPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 PewterCity_Gym_EventScript_GymGuy::
 	lock
 	faceplayer
@@ -158,6 +163,19 @@ PewterCity_Gym_Text_LiamDefeat::
 PewterCity_Gym_Text_LiamPostBattle::
 	.string "You're pretty hot.\n"
 	.string "…But not as hot as BROCK!$"
+
+PewterCity_Gym_Text_DarrenIntro::
+	.string "Hah! You're here to take on BROCK?\p"
+	.string "Better be ready to climb a\n"
+	.string "mountain of tough Pokémon!$"
+
+PewterCity_Gym_Text_DarrenDefeat::
+	.string "Whoa! You scaled that\n"
+	.string "like a pro!$"
+
+PewterCity_Gym_Text_DarrenPostBattle::
+	.string "If you think that was tough,\n"
+	.string "BROCK's on another level.$"
 
 PewterCity_Gym_Text_LetMeTakeYouToTheTop::
 	.string "Hiya!\n"

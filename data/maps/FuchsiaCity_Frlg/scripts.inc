@@ -70,9 +70,9 @@ FuchsiaCity_EventScript_GymSign::
 
 FuchsiaCity_EventScript_ChanseySign::
 	lockall
-	setvar VAR_0x8004, SPECIES_CHANSEY
+	setvar VAR_0x8004, SPECIES_AUDINO
 	special SetSeenMon
-	showmonpic SPECIES_CHANSEY, 10, 3
+	showmonpic SPECIES_AUDINO, 10, 3
 	msgbox FuchsiaCity_Text_ChanseySign
 	hidemonpic
 	releaseall
@@ -80,9 +80,9 @@ FuchsiaCity_EventScript_ChanseySign::
 
 FuchsiaCity_EventScript_VoltorbSign::
 	lockall
-	setvar VAR_0x8004, SPECIES_VOLTORB
+	setvar VAR_0x8004, SPECIES_FOONGUS
 	special SetSeenMon
-	showmonpic SPECIES_VOLTORB, 10, 3
+	showmonpic SPECIES_FOONGUS, 10, 3
 	msgbox FuchsiaCity_Text_VoltorbSign
 	hidemonpic
 	releaseall
@@ -90,9 +90,9 @@ FuchsiaCity_EventScript_VoltorbSign::
 
 FuchsiaCity_EventScript_KangaskhanSign::
 	lockall
-	setvar VAR_0x8004, SPECIES_KANGASKHAN
+	setvar VAR_0x8004, SPECIES_BOUFFALANT
 	special SetSeenMon
-	showmonpic SPECIES_KANGASKHAN, 10, 3
+	showmonpic SPECIES_BOUFFALANT, 10, 3
 	msgbox FuchsiaCity_Text_KangaskhanSign
 	hidemonpic
 	releaseall
@@ -110,9 +110,9 @@ FuchsiaCity_EventScript_SlowpokeSign::
 
 FuchsiaCity_EventScript_LaprasSign::
 	lockall
-	setvar VAR_0x8004, SPECIES_LAPRAS
+	setvar VAR_0x8004, SPECIES_BASCULEGION
 	special SetSeenMon
-	showmonpic SPECIES_LAPRAS, 10, 3
+	showmonpic SPECIES_BASCULEGION, 10, 3
 	msgbox FuchsiaCity_Text_LaprasSign
 	hidemonpic
 	releaseall
@@ -121,9 +121,9 @@ FuchsiaCity_EventScript_LaprasSign::
 FuchsiaCity_EventScript_FossilMonSign::
 	lockall
 	goto_if_set FLAG_GOT_DOME_FOSSIL, FuchsiaCity_EventScript_OmanyteSign
-	setvar VAR_0x8004, SPECIES_KABUTO
+	setvar VAR_0x8004, SPECIES_TIRTOUGA
 	special SetSeenMon
-	showmonpic SPECIES_KABUTO, 10, 3
+	showmonpic SPECIES_TIRTOUGA, 10, 3
 	msgbox FuchsiaCity_Text_KabutoSign
 	hidemonpic
 	releaseall
@@ -186,11 +186,11 @@ FuchsiaCity_Text_GymSign::
 	.string "The Poisonous Ninja Master$"
 
 FuchsiaCity_Text_ChanseySign::
-	.string "Name: CHANSEY\n"
+	.string "Name: Audino\n"
 	.string "Catching one is all up to chance.$"
 
 FuchsiaCity_Text_VoltorbSign::
-	.string "Name: VOLTORB\n"
+	.string "Name: Foongus\n"
 	.string "The very image of a POKé BALL.$"
 
 FuchsiaCity_Text_KangaskhanSign::
@@ -199,20 +199,20 @@ FuchsiaCity_Text_KangaskhanSign::
 	.string "young in a pouch on its belly.$"
 
 FuchsiaCity_Text_SlowpokeSign::
-	.string "Name: SLOWPOKE\n"
+	.string "Name: Bouffalant\n"
 	.string "Friendly and very slow moving.$"
 
 FuchsiaCity_Text_LaprasSign::
-	.string "Name: LAPRAS\n"
+	.string "Name: Basculegion\n"
 	.string "AKA the king of the seas.$"
 
 FuchsiaCity_Text_OmanyteSign::
-	.string "Name: OMANYTE\n"
+	.string "Name: Tirtouga\n"
 	.string "An extremely rare POKéMON that was\l"
 	.string "regenerated from a fossil.$"
 
 FuchsiaCity_Text_KabutoSign::
-	.string "Name: KABUTO\n"
+	.string "Name: Tirtouga\n"
 	.string "An extremely rare POKéMON that was\l"
 	.string "regenerated from a fossil.$"
 

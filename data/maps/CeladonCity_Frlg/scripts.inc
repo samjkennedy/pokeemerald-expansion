@@ -42,7 +42,7 @@ CeladonCity_EventScript_Poliwrath::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_POLIWRATH, CRY_MODE_NORMAL
+	playmoncry SPECIES_SIMIPOUR, CRY_MODE_NORMAL
 	msgbox CeladonCity_Text_Poliwrath
 	closemessage
 	waitmoncry
@@ -124,12 +124,12 @@ CeladonCity_Text_BlewItAllAtSlots::
 	.string "COINS for prizes!$"
 
 CeladonCity_Text_MyTrustedPalPoliwrath::
-	.string "This is my trusted pal, POLIWRATH.\p"
-	.string "It evolved from a POLIWHIRL when\n"
+	.string "This is my trusted pal, Simipour.\p"
+	.string "It evolved from a Panpour when\n"
 	.string "I used a WATER STONE.$"
 
 CeladonCity_Text_Poliwrath::
-	.string "POLIWRATH: Ribi ribit!$"
+	.string "Simipour: Ooh ooh ahh ahh!$"
 
 CeladonCity_Text_GetLostOrIllPunchYou::
 	.string "What are you staring at?\n"

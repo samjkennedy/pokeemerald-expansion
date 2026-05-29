@@ -233,7 +233,7 @@ VermilionCity_EventScript_Machop::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_MACHOP, CRY_MODE_NORMAL
+	playmoncry SPECIES_CONKELDURR, CRY_MODE_NORMAL
 	msgbox VermilionCity_Text_Machop
 	waitmoncry
 	msgbox VermilionCity_Text_MachopStompingLandFlat
@@ -284,10 +284,10 @@ VermilionCity_Text_BuildingOnThisLand::
 	.string "to lay the foundation.$"
 
 VermilionCity_Text_Machop::
-	.string "MACHOP: Guoh! Gogogoh!$"
+	.string "Conkeldurr: Durr! Keldurr!$"
 
 VermilionCity_Text_MachopStompingLandFlat::
-	.string "A MACHOP is stomping the land flat.$"
+	.string "A Conkeldurr is stomping the land flat.$"
 
 VermilionCity_Text_SSAnneVisitsOnceAYear::
 	.string "The S.S. ANNE is a famous luxury\n"

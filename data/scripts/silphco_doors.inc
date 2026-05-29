@@ -512,9 +512,6 @@ EventScript_TryUnlockDoor::
 	end
 
 EventScript_OpenDoor::
-	playfanfare MUS_LEVEL_UP
-	msgbox Text_CardKeyOpenedDoor
-	waitfanfare
 	call_if_eq VAR_TEMP_1, 1, EventScript_Open2FDoor1
 	call_if_eq VAR_TEMP_1, 2, EventScript_Open2FDoor2
 	call_if_eq VAR_TEMP_1, 3, EventScript_Open3FDoor1
@@ -540,6 +537,7 @@ EventScript_OpenDoor::
 	special DrawWholeMapView
 	waitse
 	special SetHiddenItemFlag
+	playfanfare MUS_LEVEL_UP
 	releaseall
 	end
 

@@ -103,10 +103,10 @@ Route8_Text_JuliaIntro::
 
 Route8_Text_JuliaDefeat::
 	.string "Stop!\p"
-	.string "Don't be so mean to my CLEFAIRY!$"
+	.string "Don't be so mean to my Cinccino!$"
 
 Route8_Text_JuliaPostBattle::
-	.string "I read that CLEFAIRY evolves when\n"
+	.string "I read that Minccino evolves when\n"
 	.string "it's exposed to a MOON STONE.\p"
 	.string "I read that in a POKéMON JOURNAL.\n"
 	.string "I wonder if it's true?$"

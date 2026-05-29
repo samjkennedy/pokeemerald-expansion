@@ -5436,6 +5436,18 @@ bool8 MonKnowsMove(struct Pokemon *mon, enum Move move)
     return FALSE;
 }
 
+bool8 MonLearnsMove(struct Pokemon *mon, enum Move move)
+{
+    switch (CanTeachMove(mon, move))
+    {
+    case ALREADY_KNOWS_MOVE:
+    case CAN_LEARN_MOVE:
+        return TRUE;
+    default:
+        return FALSE;
+    }
+}
+
 bool8 BoxMonKnowsMove(struct BoxPokemon *boxMon, enum Move move)
 {
     u8 i;

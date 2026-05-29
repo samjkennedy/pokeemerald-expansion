@@ -166,13 +166,13 @@ SaffronCity_Text_PeopleComingBackToSaffron::
 	.string "SAFFRON now.$"
 
 SaffronCity_Text_FlewHereOnPidgeot::
-	.string "I flew here on my PIDGEOT when\n"
+	.string "I flew here on my Unfezant when\n"
 	.string "I read about SILPH.\p"
 	.string "It's already over?\n"
 	.string "I missed the media action…$"
 
 SaffronCity_Text_Pidgeot::
-	.string "PIDGEOT: Bi bibii!$"
+	.string "Unfezant: Fez zaant!$"
 
 SaffronCity_Text_SawRocketBossEscaping::
 	.string "I saw the ROCKET BOSS escaping\n"

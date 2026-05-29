@@ -1512,6 +1512,13 @@ void CreateMaleMon(struct Pokemon *mon, u16 species, u8 level)
     GiveMonInitialMoveset(mon);
 }
 
+void CreateFemaleMon(struct Pokemon *mon, u16 species, u8 level)
+{
+    u32 personality = GetMonPersonality(species, MON_FEMALE, NATURE_RANDOM, RANDOM_UNOWN_LETTER);
+    CreateMonWithIVs(mon, species, level, personality, OTID_STRUCT_PLAYER_ID, USE_RANDOM_IVS);
+    GiveMonInitialMoveset(mon);
+}
+
 void CreateMonWithIVsPersonality(struct Pokemon *mon, u16 species, u8 level, u32 ivs, u32 personality)
 {
     CreateMon(mon, species, level, personality, OTID_STRUCT_PLAYER_ID);

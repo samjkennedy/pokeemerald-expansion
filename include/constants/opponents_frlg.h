@@ -254,10 +254,10 @@
 #define TRAINER_BOSS_GIOVANNI                      248
 #define TRAINER_BOSS_GIOVANNI_2                    249
 #define TRAINER_LEADER_GIOVANNI                    250
-#define TRAINER_TEAM_ROCKET_GRUNT                  251
+#define TRAINER_ROCKET_ADMIN_APOLLO                251
 #define TRAINER_TEAM_ROCKET_GRUNT_2                252
 #define TRAINER_TEAM_ROCKET_GRUNT_3                253
-#define TRAINER_TEAM_ROCKET_GRUNT_4                254
+#define TRAINER_ROCKET_ADMIN_ARTEMIS               254
 #define TRAINER_TEAM_ROCKET_GRUNT_5                255
 #define TRAINER_TEAM_ROCKET_GRUNT_6                256
 #define TRAINER_TEAM_ROCKET_GRUNT_7                257
@@ -275,7 +275,7 @@
 #define TRAINER_TEAM_ROCKET_GRUNT_19               269
 #define TRAINER_TEAM_ROCKET_GRUNT_20               270
 #define TRAINER_TEAM_ROCKET_GRUNT_21               271
-#define TRAINER_TEAM_ROCKET_GRUNT_22               272
+#define TRAINER_ROCKET_ADMIN_APOLLO_3              272
 #define TRAINER_TEAM_ROCKET_GRUNT_23               273
 #define TRAINER_TEAM_ROCKET_GRUNT_24               274
 #define TRAINER_TEAM_ROCKET_GRUNT_25               275
@@ -287,7 +287,7 @@
 #define TRAINER_TEAM_ROCKET_GRUNT_31               281
 #define TRAINER_TEAM_ROCKET_GRUNT_32               282
 #define TRAINER_TEAM_ROCKET_GRUNT_33               283
-#define TRAINER_TEAM_ROCKET_GRUNT_34               284
+#define TRAINER_ROCKET_ADMIN_ARTEMIS_3             284
 #define TRAINER_TEAM_ROCKET_GRUNT_35               285
 #define TRAINER_TEAM_ROCKET_GRUNT_36               286
 #define TRAINER_TEAM_ROCKET_GRUNT_37               287
@@ -627,12 +627,17 @@
 #define TRAINER_CHAMPION_REMATCH_BULBASAUR         621
 #define TRAINER_CHAMPION_REMATCH_CHARMANDER        622
 #define TRAINER_CUE_BALL_PAXTON                    623
+//new trainers
+#define TRAINER_HIKER_DARREN                       624
+#define TRAINER_LEADER_KOGA_2                      625
+#define TRAINER_LEADER_SABRINA_2                   626
+
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is
 //       only space for 25 additional trainers before trainer flag space overflows.
 //       MAX_TRAINERS_COUNT_FRLG can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT_FRLG                      624
-#define MAX_TRAINERS_COUNT_FRLG                  768
-
+#define TRAINERS_COUNT_FRLG                        627
+#define MAX_TRAINERS_COUNT_FRLG                    768
+  
 #endif  // GUARD_CONSTANTS_OPPONENTS_FRLG_H

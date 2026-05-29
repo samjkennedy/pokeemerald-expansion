@@ -105,6 +105,7 @@ SootopolisCity_Gym_SetGymTrainers::
 
 EventScript_SetPewterGymTrainers::
 	settrainerflag TRAINER_CAMPER_LIAM
+	settrainerflag TRAINER_HIKER_DARREN
 	return
 
 EventScript_SetCeruleanGymTrainers::

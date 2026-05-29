@@ -3,7 +3,6 @@
   "name": "PewterCity_Frlg",
   "layout": "LAYOUT_PEWTER_CITY",
   "music": "MUS_RG_PEWTER",
-  "region": "REGION_KANTO",
   "region_map_section": "MAPSEC_PEWTER_CITY",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -149,7 +148,7 @@
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_PEWTER_CITY_GYM",
-      "dest_warp_id": "1"
+      "dest_warp_id": "0"
     },
     {
       "x": 28,
@@ -296,5 +295,6 @@
       "quantity": 1,
       "underfoot": false
     }
-  ]
+  ],
+  "region": "REGION_KANTO"
 }

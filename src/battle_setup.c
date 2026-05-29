@@ -474,7 +474,7 @@ void StartWallyTutorialBattle(void)
 
 void StartOldManTutorialBattle(void)
 {
-    CreateMaleMon(&gEnemyParty[0], SPECIES_WEEDLE, 5);
+    CreateFemaleMon(&gEnemyParty[0], SPECIES_MUNNA, 5);
     LockPlayerFieldControls();
     gMain.savedCallback = CB2_ReturnToFieldContinueScriptPlayMapMusic;
     gBattleTypeFlags = BATTLE_TYPE_CATCH_TUTORIAL;
@@ -513,9 +513,9 @@ void StartMarowakBattle(void)
 
     if (CheckBagHasItem(ITEM_SILPH_SCOPE, 1))
     {
-        u32 personality = GetMonPersonality(SPECIES_MAROWAK, MON_FEMALE, NATURE_SERIOUS, RANDOM_UNOWN_LETTER);
+        u32 personality = GetMonPersonality(SPECIES_ZOROARK_HISUI, MON_FEMALE, NATURE_SERIOUS, RANDOM_UNOWN_LETTER);
 
-        CreateMonWithIVsPersonality(&gEnemyParty[0], SPECIES_MAROWAK, 30, 31, personality);
+        CreateMonWithIVsPersonality(&gEnemyParty[0], SPECIES_ZOROARK_HISUI, 40, 31, personality);
     }
 
     CreateBattleStartTask(GetWildBattleTransition(), 0);

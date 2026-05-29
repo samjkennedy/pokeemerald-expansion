@@ -18,6 +18,7 @@ PalletTown_PlayersHouse_2F_OnWarp::
 PalletTown_PlayersHouse_2F_FirstWarpIn::
 	turnobject LOCALID_PLAYER, DIR_NORTH
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PLAYERS_HOUSE_2F, 1
+	setflag FLAG_SYS_B_DASH
 	end
 
 PalletTown_PlayersHouse_2F_EventScript_NES::
@@ -35,6 +36,5 @@ PalletTown_PlayersHouse_2F_Text_PlayedWithNES::
 
 PalletTown_PlayersHouse_2F_Text_PressLRForHelp::
 	.string "It's a posted notice…\p"
-	.string "If you're confused, ask for HELP!\n"
-	.string "Press the L or R Button!$"
+	.string "Press B to toggle the running shoes!$"
 

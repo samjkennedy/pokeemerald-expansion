@@ -115,8 +115,8 @@ PokemonTower_2F_Text_RivalDefeat::
 
 PokemonTower_2F_Text_RivalPostBattle::
 	.string "How's your POKéDEX coming?\n"
-	.string "I just caught a CUBONE!\p"
-	.string "I can't find the bigger MAROWAK.\n"
+	.string "I just caught a Zorua!\p"
+	.string "I can't find the bigger Zoroark.\n"
 	.string "Where could they be?\p"
 	.string "I bet there aren't any left!\p"
 	.string "Well, I better get going.\n"
